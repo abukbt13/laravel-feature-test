@@ -23,7 +23,7 @@ class PostController extends Controller
        return([
            'status' => 'success',
            'message'=>'Post Created',
-           'post'=>$post
+           'posts'=>$post
        ]);
     }
 
